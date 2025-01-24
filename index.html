@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      direction: rtl;
+      font-family: Vazirmatn;
+      font-size: 14px;
+    }
+    .wrapper {
+      max-width: 1100px;
+      margin: 0 auto;
+      background-color: rgb(242, 239, 239);
+      display: flex;
+      flex-direction: column;
+      padding: 10px 20px;
+    }
+    .top {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .top span:first-child {
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .top span:first-child::before {
+      content: "";
+      background-image: url(arrow.png);
+      width: 20px;
+      height: 20px;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      display: inline-block;
+      background-size: cover;
+      margin-left: 7px;
+    }
+    .top span:last-child {
+      color: rgb(111, 147, 231);
+    }
+    .takhfif span:first-child {
+      padding: 3px;
+      background-color: rgb(217, 217, 248);
+      color: rgb(110, 110, 244);
+      border-radius: 5px;
+      font-size: 10px;
+      font-weight: 900;
+    }
+    .takhfif span:last-child {
+      text-decoration: line-through;
+      font-size: 12px;
+    }
+    .img-res {
+      width: 100%;
+      height: auto;
+    }
+    .products {
+      display: flex;
+      justify-content: space-between;
+    }
+    .card {
+      display: flex;
+      flex-direction: column;
+      width: 23%;
+      background-color: #fff;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+      padding: 12px;
+      border-radius: 7px;
+    }
+    .footer {
+      display: flex;
+      justify-content: space-between;
+    }
+    .title {
+      margin-top: 5px;
+      margin-bottom: 15px;
+      font-size: 12px;
+    }
+    .footer span i {
+      padding-right: 5px;
+      color: gold;
+    }
+
+    .footer span:first-child {
+      font-weight: 900;
+    }
+    .footer span:last-child {
+      font-size: 12px;
+      color: gray;
+    }
+  </style>
+  <body>
+    <section>
+      <div class="wrapper">
+        <div class="top">
+          <span>همه محصولات موبایل</span>
+          <span>مشاهده همه</span>
+        </div>
+        <div class="products">
+          <div class="card">
+            <figure>
+              <img src="pic.JPG" class="img-res" alt="" />
+            </figure>
+            <p class="title">
+              گوشی موبایل اپل مدل iPhone 13 ظرفیت 128 گیگابایت
+            </p>
+            <div class="takhfif">
+              <span>10%</span>
+              <span>800,0000</span>
+            </div>
+            <div class="footer">
+              <span>900,000تومان</span>
+              <span>3.9<i class="fas fa-star"></i></span>
+            </div>
+          </div>
+          
+          <div class="card">
+            <figure>
+              <img src="pic.JPG" class="img-res" alt="" />
+            </figure>
+            <p class="title">
+              گوشی موبایل اپل مدل iPhone 13 ظرفیت 128 گیگابایت
+            </p>
+            <div class="takhfif">
+              <span>10%</span>
+              <span>800,0000</span>
+            </div>
+            <div class="footer">
+              <span>900,000تومان</span>
+              <span>3.9<i class="fas fa-star"></i></span>
+            </div>
+          </div>
+
+          <div class="card">
+            <figure>
+              <img src="pic.JPG" class="img-res" alt="" />
+            </figure>
+            <p class="title">
+              گوشی موبایل اپل مدل iPhone 13 ظرفیت 128 گیگابایت
+            </p>
+            <div class="takhfif">
+              <span>10%</span>
+              <span>800,0000</span>
+            </div>
+            <div class="footer">
+              <span>900,000تومان</span>
+              <span>3.9<i class="fas fa-star"></i></span>
+            </div>
+          </div>
+
+          <div class="card">
+            <figure>
+              <img src="pic.JPG" class="img-res" alt="" />
+            </figure>
+            <p class="title">
+              گوشی موبایل اپل مدل iPhone 13 ظرفیت 128 گیگابایت
+            </p>
+            <div class="takhfif">
+              <span>10%</span>
+              <span>800,0000</span>
+            </div>
+            <div class="footer">
+              <span>900,000تومان</span>
+              <span>3.9<i class="fas fa-star"></i></span>
+            </div>
+          </div>
+
+        
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
